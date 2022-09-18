@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config",
+  "name": "@sunupdong/eslint-config",
   "version": "0.26.3",
-  "description": "Anthony's ESLint config",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "description": "sunupdong's ESLint config",
+  "author": "sunupdong <sunupdong@gamil.com> (https://github.com/sunupdong/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/sunupdong/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -16,8 +16,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-react": "workspace:*",
-    "@antfu/eslint-config-vue": "workspace:*",
+    "@sunupdong/eslint-config-react": "workspace:*",
+    "@sunupdong/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint-plugin-eslint-comments": "^3.2.0",

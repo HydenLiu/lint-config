@@ -4,22 +4,22 @@ importers:
 
   .:
     specifiers:
-      '@antfu/eslint-config': '*'
+      '@sunupdong/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.23.0
-      eslint-plugin-antfu: workspace:*
+      eslint-plugin-sunupdong: workspace:*
       typescript: ^4.8.2
     devDependencies:
-      '@antfu/eslint-config': link:packages/all
+      '@sunupdong/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.23.0
-      eslint-plugin-antfu: link:packages/eslint-plugin-antfu
+      eslint-plugin-sunupdong: link:packages/eslint-plugin-sunupdong
       typescript: 4.8.2
 
   packages/all:
     specifiers:
-      '@antfu/eslint-config-react': workspace:*
-      '@antfu/eslint-config-vue': workspace:*
+      '@sunupdong/eslint-config-react': workspace:*
+      '@sunupdong/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.36.1
       '@typescript-eslint/parser': ^5.36.1
       eslint: ^8.23.0
@@ -35,8 +35,8 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@antfu/eslint-config-react': link:../react
-      '@antfu/eslint-config-vue': link:../vue
+      '@sunupdong/eslint-config-react': link:../react
+      '@sunupdong/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.36.1_wyxuyzvlfep3lsyoibc4fosfq4
       '@typescript-eslint/parser': 5.36.1_eslint@8.23.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.23.0
@@ -56,7 +56,6 @@ importers:
   packages/basic:
     specifiers:
       eslint: ^8.23.0
-      eslint-plugin-antfu: workspace:*
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^7.1.0
       eslint-plugin-import: ^2.26.0
@@ -64,12 +63,12 @@ importers:
       eslint-plugin-markdown: ^3.0.0
       eslint-plugin-n: ^15.2.5
       eslint-plugin-promise: ^6.0.1
+      eslint-plugin-sunupdong: workspace:*
       eslint-plugin-unicorn: ^43.0.2
       eslint-plugin-yml: ^1.1.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      eslint-plugin-antfu: link:../eslint-plugin-antfu
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.23.0
       eslint-plugin-html: 7.1.0
       eslint-plugin-import: 2.26.0_eslint@8.23.0
@@ -77,6 +76,7 @@ importers:
       eslint-plugin-markdown: 3.0.0_eslint@8.23.0
       eslint-plugin-n: 15.2.5_eslint@8.23.0
       eslint-plugin-promise: 6.0.1_eslint@8.23.0
+      eslint-plugin-sunupdong: link:../eslint-plugin-sunupdong
       eslint-plugin-unicorn: 43.0.2_eslint@8.23.0
       eslint-plugin-yml: 1.1.0_eslint@8.23.0
       jsonc-eslint-parser: 2.1.0
@@ -84,7 +84,7 @@ importers:
     devDependencies:
       eslint: 8.23.0
 
-  packages/eslint-plugin-antfu:
+  packages/eslint-plugin-sunupdong:
     specifiers:
       '@typescript-eslint/utils': ^5.36.1
       unbuild: ^0.8.10
@@ -97,13 +97,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@antfu/eslint-config-ts': workspace:*
+      '@sunupdong/eslint-config-ts': workspace:*
       eslint: ^8.23.0
       eslint-plugin-react: ^7.31.1
       react: ^18.2.0
       typescript: ^4.8.2
     dependencies:
-      '@antfu/eslint-config-ts': link:../typescript
+      '@sunupdong/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.31.1_eslint@8.23.0
     devDependencies:
       eslint: 8.23.0
@@ -112,12 +112,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@antfu/eslint-config-basic': workspace:*
+      '@sunupdong/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.36.1
       '@typescript-eslint/parser': ^5.36.1
       eslint: ^8.23.0
     dependencies:
-      '@antfu/eslint-config-basic': link:../basic
+      '@sunupdong/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.36.1_wyxuyzvlfep3lsyoibc4fosfq4
       '@typescript-eslint/parser': 5.36.1_eslint@8.23.0
     devDependencies:
@@ -125,11 +125,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@antfu/eslint-config-ts': workspace:*
+      '@sunupdong/eslint-config-ts': workspace:*
       eslint: ^8.23.0
       eslint-plugin-vue: ^9.4.0
     dependencies:
-      '@antfu/eslint-config-ts': link:../typescript
+      '@sunupdong/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.4.0_eslint@8.23.0
     devDependencies:
       eslint: 8.23.0
@@ -3205,14 +3205,6 @@ packages:
       - supports-color
     dev: true
 
-  /rollup/2.78.1:
-    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /rollup/2.79.0:
     resolution: {integrity: sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==}
     engines: {node: '>=10.0.0'}
@@ -3607,7 +3599,7 @@ packages:
       esbuild: 0.14.53
       postcss: 8.4.14
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.79.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true

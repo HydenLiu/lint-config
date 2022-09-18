@@ -1,8 +1,8 @@
 {
-  "name": "eslint-plugin-antfu",
+  "name": "eslint-plugin-sunupdong",
   "version": "0.26.3",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/sunupdong/eslint-config",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

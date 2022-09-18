@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config-vue",
+  "name": "@sunupdong/eslint-config-vue",
   "version": "0.26.3",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-ts": "workspace:*",
+    "@sunupdong/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.4.0"
   },
   "devDependencies": {
