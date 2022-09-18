@@ -55,4 +55,4 @@ Create `.vscode/settings.json`
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2022-PRESENT [Anthony Fu](https://github.com/sunupdong)
+[MIT](./LICENSE) License &copy; 2022-PRESENT [sunupdong](https://github.com/sunupdong)
