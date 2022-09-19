@@ -87,10 +87,12 @@ importers:
   packages/eslint-plugin-sunupdong:
     specifiers:
       '@typescript-eslint/utils': ^5.36.1
+      rimraf: ^3.0.2
       unbuild: ^0.8.10
       vitest: ^0.22.1
     dependencies:
       '@typescript-eslint/utils': 5.36.1
+      rimraf: 3.0.2
     devDependencies:
       unbuild: 0.8.10
       vitest: 0.22.1

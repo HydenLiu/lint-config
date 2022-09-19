@@ -16,7 +16,8 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.36.1"
+    "@typescript-eslint/utils": "^5.36.1",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "unbuild": "^0.8.10",
