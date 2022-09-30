@@ -5,23 +5,23 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
-    sourceType: 'module',
+    sourceType: 'module'
   },
   env: {
     es2021: true,
-    node: true,
+    node: true
   },
   plugins: [
     'import',
     'n',
-    'promise',
+    'promise'
   ],
   globals: {
     document: 'readonly',
     navigator: 'readonly',
-    window: 'readonly',
+    window: 'readonly'
   },
   rules: {
     'no-var': 'warn',
@@ -31,7 +31,7 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'array-callback-return': ['error', {
       allowImplicit: false,
-      checkForEach: false,
+      checkForEach: false
     }],
     'arrow-spacing': ['error', { before: true, after: true }],
     'block-spacing': ['error', 'always'],
@@ -39,14 +39,14 @@ module.exports = {
     'camelcase': ['error', {
       allow: ['^UNSAFE_'],
       properties: 'never',
-      ignoreGlobals: true,
+      ignoreGlobals: true
     }],
     'comma-dangle': ['error', {
       arrays: 'never',
       objects: 'never',
       imports: 'never',
       exports: 'never',
-      functions: 'never',
+      functions: 'never'
     }],
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
@@ -73,8 +73,17 @@ module.exports = {
       ImportDeclaration: 1,
       flatTernaryExpressions: false,
       ignoreComments: false,
-      ignoredNodes: ['TemplateLiteral *', 'JSXElement', 'JSXElement > *', 'JSXAttribute', 'JSXIdentifier', 'JSXNamespacedName', 'JSXMemberExpression', 'JSXSpreadAttribute', 'JSXExpressionContainer', 'JSXOpeningElement', 'JSXClosingElement', 'JSXFragment', 'JSXOpeningFragment', 'JSXClosingFragment', 'JSXText', 'JSXEmptyExpression', 'JSXSpreadChild'],
-      offsetTernaryExpressions: true,
+      ignoredNodes: [
+        'TemplateLiteral *',
+        'JSXAttribute',
+        'JSXIdentifier',
+        'JSXNamespacedName',
+        'JSXMemberExpression',
+        'JSXSpreadAttribute',
+        'JSXText',
+        'JSXEmptyExpression'
+      ],
+      offsetTernaryExpressions: true
     }],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'keyword-spacing': ['error', { before: true, after: true }],
@@ -127,9 +136,9 @@ module.exports = {
       groups: [
         ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
         ['&&', '||'],
-        ['in', 'instanceof'],
+        ['in', 'instanceof']
       ],
-      allowSamePrecedence: true,
+      allowSamePrecedence: true
     }],
     'no-mixed-spaces-and-tabs': 'error',
     'no-multi-spaces': 'error',
@@ -169,13 +178,13 @@ module.exports = {
     'no-unused-expressions': ['error', {
       allowShortCircuit: true,
       allowTernary: true,
-      allowTaggedTemplates: true,
+      allowTaggedTemplates: true
     }],
     'no-unused-vars': ['error', {
       args: 'none',
       caughtErrors: 'none',
       ignoreRestSiblings: true,
-      vars: 'all',
+      vars: 'all'
     }],
     'no-use-before-define': ['error', { functions: false, classes: false, variables: false }],
     'no-useless-call': 'error',
@@ -207,15 +216,15 @@ module.exports = {
       {
         anonymous: 'always',
         named: 'never',
-        asyncArrow: 'always',
-      },
+        asyncArrow: 'always'
+      }
     ],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'space-unary-ops': ['error', { words: true, nonwords: false }],
     'spaced-comment': ['error', 'always', {
       line: { markers: ['*package', '!', '/', ',', '='] },
-      block: { balanced: true, markers: ['*package', '!', ',', ':', '::', 'flow-include'], exceptions: ['*'] },
+      block: { balanced: true, markers: ['*package', '!', ',', ':', '::', 'flow-include'], exceptions: ['*'] }
     }],
     'symbol-description': 'error',
     'template-curly-spacing': ['error', 'never'],
@@ -223,7 +232,7 @@ module.exports = {
     'unicode-bom': ['error', 'never'],
     'use-isnan': ['error', {
       enforceForSwitchCase: true,
-      enforceForIndexOf: true,
+      enforceForIndexOf: true
     }],
     'valid-typeof': ['error', { requireStringLiterals: true }],
     'wrap-iife': ['error', 'any', { functionPrototypeMethods: true }],
@@ -245,6 +254,6 @@ module.exports = {
     'n/no-path-concat': 'error',
     'n/process-exit-as-throw': 'error',
 
-    'promise/param-names': 'error',
-  },
+    'promise/param-names': 'error'
+  }
 }

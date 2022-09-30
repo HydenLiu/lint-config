@@ -4,12 +4,12 @@ module.exports = {
   extends: [
     '@sunupdong/eslint-config-basic',
     'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
-    },
+      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] }
+    }
   },
   overrides: basic.overrides,
   rules: {
@@ -41,25 +41,15 @@ module.exports = {
       ignoreComments: false,
       ignoredNodes: [
         'TemplateLiteral *',
-        'JSXElement',
-        'JSXElement > *',
         'JSXAttribute',
         'JSXIdentifier',
         'JSXNamespacedName',
         'JSXMemberExpression',
         'JSXSpreadAttribute',
-        'JSXExpressionContainer',
-        'JSXOpeningElement',
-        'JSXClosingElement',
-        'JSXFragment',
-        'JSXOpeningFragment',
-        'JSXClosingFragment',
         'JSXText',
-        'JSXEmptyExpression',
-        'JSXSpreadChild',
-        'TSTypeParameterInstantiation',
+        'JSXEmptyExpression'
       ],
-      offsetTernaryExpressions: true,
+      offsetTernaryExpressions: true
     }],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
@@ -70,7 +60,7 @@ module.exports = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/comma-dangle': ['error', 'never'],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     'semi': 'off',
@@ -85,8 +75,8 @@ module.exports = {
       {
         anonymous: 'always',
         named: 'never',
-        asyncArrow: 'always',
-      },
+        asyncArrow: 'always'
+      }
     ],
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'error',
@@ -125,6 +115,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
-    '@typescript-eslint/triple-slash-reference': 'off',
-  },
+    '@typescript-eslint/triple-slash-reference': 'off'
+  }
 }
