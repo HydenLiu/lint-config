@@ -15,7 +15,18 @@ Forked from antfu/eslint-config
 ### Install
 
 ```bash
+# all
 pnpm add -D eslint @sunupdong/eslint-config
+
+# ts
+pnpm add -D eslint @sunupdong/eslint-config/typescript
+
+# vue
+pnpm add -D eslint @sunupdong/eslint-config/vue
+
+# react
+pnpm add -D eslint @sunupdong/eslint-config/react
+
 ```
 
 ### Config `.eslintrc`
