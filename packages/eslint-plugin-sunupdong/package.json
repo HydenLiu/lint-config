@@ -21,6 +21,6 @@
   },
   "devDependencies": {
     "unbuild": "0.8.11",
-    "vitest": "0.23.4"
+    "vitest": "0.24.1"
   }
 }

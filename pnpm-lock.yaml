@@ -89,13 +89,13 @@ importers:
       '@typescript-eslint/utils': ^5.36.1
       rimraf: ^3.0.2
       unbuild: 0.8.11
-      vitest: 0.23.4
+      vitest: 0.24.1
     dependencies:
       '@typescript-eslint/utils': 5.36.1
       rimraf: 3.0.2
     devDependencies:
       unbuild: 0.8.11
-      vitest: 0.23.4
+      vitest: 0.24.1
 
   packages/react:
     specifiers:
@@ -722,12 +722,12 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /acorn-jsx/5.3.1_acorn@8.7.0:
+  /acorn-jsx/5.3.1_acorn@8.8.0:
     resolution: {integrity: sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      acorn: 8.7.0
+      acorn: 8.8.0
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.0:
@@ -2029,8 +2029,8 @@ packages:
     resolution: {integrity: sha512-d/5nCsb0JcqsSEeQzFZ8DH1RmxPcglRWh24EFTlUEmCKoehXGdpsx0RkHDubqUI8LSAIKMQp4r9SzQ3n+sm4HQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.7.0
-      acorn-jsx: 5.3.1_acorn@8.7.0
+      acorn: 8.8.0
+      acorn-jsx: 5.3.1_acorn@8.8.0
       eslint-visitor-keys: 3.3.0
     dev: false
 
@@ -3400,8 +3400,8 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
-  /tinybench/2.1.5:
-    resolution: {integrity: sha512-ak+PZZEuH3mw6CCFOgf5S90YH0MARnZNhxjhjguAmoJimEMAJuNip/rJRd6/wyylHItomVpKTzZk9zrhTrQCoQ==}
+  /tinybench/2.3.0:
+    resolution: {integrity: sha512-zs1gMVBwyyG2QbVchYIbnabRhMOCGvrwZz/q+SV+LIMa9q5YDQZi2kkI6ZRqV2Bz7ba1uvrc7ieUoE4KWnGeKg==}
     dev: true
 
   /tinypool/0.3.0:
@@ -3618,8 +3618,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.23.4:
-    resolution: {integrity: sha512-iukBNWqQAv8EKDBUNntspLp9SfpaVFbmzmM0sNcnTxASQZMzRw3PsM6DMlsHiI+I6GeO5/sYDg3ecpC+SNFLrQ==}
+  /vitest/0.24.1:
+    resolution: {integrity: sha512-NKkK1xnDIOOr42pKBfGQQl6b6IWdFVBpG6ZS1T+nUlJuqcOiZ7lxjVwHy9wrtTYpJ0BWww9y6bSGYXubD29Nag==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3647,7 +3647,7 @@ packages:
       debug: 4.3.4
       local-pkg: 0.4.2
       strip-literal: 0.4.2
-      tinybench: 2.1.5
+      tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.0.4
