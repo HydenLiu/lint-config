@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@sunupdong/eslint-config': '*'
+      '@sunupdong/eslint-config': 1.0.3
       bumpp: 8.2.1
       eslint: 8.25.0
       eslint-plugin-sunupdong: workspace:*
