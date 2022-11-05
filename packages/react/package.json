@@ -1,6 +1,6 @@
 {
   "name": "@sunupdong/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
   "license": "MIT",
@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "@sunupdong/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.31.1"
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",
