@@ -12,7 +12,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@sunupdong/eslint-config": "1.0.3",
+    "@sunupdong/eslint-config": "1.0.5",
     "bumpp": "8.2.1",
     "eslint": "8.26.0",
     "eslint-plugin-sunupdong": "workspace:*",
