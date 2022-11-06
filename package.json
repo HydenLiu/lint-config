@@ -14,7 +14,7 @@
   "devDependencies": {
     "@sunupdong/eslint-config": "1.0.5",
     "bumpp": "8.2.1",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-plugin-sunupdong": "workspace:*",
     "typescript": "4.8.4"
   }
