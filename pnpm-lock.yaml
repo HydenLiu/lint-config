@@ -89,13 +89,13 @@ importers:
       '@typescript-eslint/utils': ^5.36.1
       rimraf: ^3.0.2
       unbuild: 0.9.1
-      vitest: 0.25.1
+      vitest: 0.25.2
     dependencies:
       '@typescript-eslint/utils': 5.36.1
       rimraf: 3.0.2
     devDependencies:
       unbuild: 0.9.1
-      vitest: 0.25.1
+      vitest: 0.25.2
 
   packages/react:
     specifiers:
@@ -3671,8 +3671,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.1:
-    resolution: {integrity: sha512-eH74h6MkuEgsqR4mAQZeMK9O0PROiKY+i+1GMz/fBi5A3L2ml5U7JQs7LfPU7+uWUziZyLHagl+rkyfR8SLhlA==}
+  /vitest/0.25.2:
+    resolution: {integrity: sha512-qqkzfzglEFbQY7IGkgSJkdOhoqHjwAao/OrphnHboeYHC5JzsVFoLCaB2lnAy8krhj7sbrFTVRApzpkTOeuDWQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
