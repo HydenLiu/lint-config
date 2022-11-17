@@ -1,6 +1,6 @@
 {
   "name": "@sunupdong/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "sunupdong's ESLint config",
   "author": "sunupdong <sunupdong@gamil.com> (https://github.com/sunupdong/)",
   "license": "MIT",
