@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sunupdong",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "homepage": "https://github.com/sunupdong/eslint-config",
   "main": "./dist/index.cjs",
@@ -16,8 +16,7 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.43.0",
-    "rimraf": "^3.0.2"
+    "@typescript-eslint/utils": "^5.43.0"
   },
   "devDependencies": {
     "unbuild": "1.0.1",

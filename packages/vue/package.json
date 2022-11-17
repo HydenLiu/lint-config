@@ -1,6 +1,6 @@
 {
   "name": "@sunupdong/eslint-config-vue",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "@sunupdong/eslint-config-basic": "workspace:*",
     "@sunupdong/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.7.0"
   },
