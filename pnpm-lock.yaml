@@ -9,14 +9,14 @@ importers:
       eslint: 8.29.0
       eslint-plugin-sunupdong: workspace:*
       rimraf: ^3.0.2
-      typescript: 4.9.3
+      typescript: 4.9.4
     devDependencies:
       '@sunupdong/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.29.0
       eslint-plugin-sunupdong: link:packages/eslint-plugin-sunupdong
       rimraf: 3.0.2
-      typescript: 4.9.3
+      typescript: 4.9.4
 
   packages/all:
     specifiers:
@@ -104,7 +104,7 @@ importers:
       eslint-plugin-react: ^7.31.10
       eslint-plugin-react-hooks: ^4.6.0
       react: 18.2.0
-      typescript: 4.9.3
+      typescript: 4.9.4
     dependencies:
       '@sunupdong/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.31.10_eslint@8.29.0
@@ -112,7 +112,7 @@ importers:
     devDependencies:
       eslint: 8.29.0
       react: 18.2.0
-      typescript: 4.9.3
+      typescript: 4.9.4
 
   packages/typescript:
     specifiers:
@@ -3609,6 +3609,12 @@ packages:
 
   /typescript/4.9.3:
     resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
