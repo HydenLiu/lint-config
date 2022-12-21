@@ -90,12 +90,12 @@ importers:
     specifiers:
       '@typescript-eslint/utils': ^5.43.0
       unbuild: 1.0.2
-      vitest: 0.26.0
+      vitest: 0.26.2
     dependencies:
       '@typescript-eslint/utils': 5.43.0
     devDependencies:
       unbuild: 1.0.2
-      vitest: 0.26.0
+      vitest: 0.26.2
 
   packages/react:
     specifiers:
@@ -3741,8 +3741,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: false
 
-  /vite-node/0.26.0:
-    resolution: {integrity: sha512-nLtHWCv6reONl1oFsKhQ/LT7n3UNLpvVARAJlmGrQV6qSElht/9AdN41Pa+WSkw2Winh682UzM0Yw0GNlfqejw==}
+  /vite-node/0.26.2:
+    resolution: {integrity: sha512-4M/zlatItZAyvrQG+82zQBhgDjRZRhVJYFW4T9wcAKh7eMmSiPOVSeI5zsV9UzHXgCcIDKX0o0r3s4OxExTHqg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     dependencies:
@@ -3787,8 +3787,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.26.0:
-    resolution: {integrity: sha512-5kUnms5WOa0qrDCJePEPB13v9mhr+ZT1Qy0qNg0eVj1X7/Fx4GY4L1e5s3OH+BQ/J7M5WtaKsUGv9l1pbC7v2Q==}
+  /vitest/0.26.2:
+    resolution: {integrity: sha512-Jvqxh6SDy9SsuslkDjts0iDewDIdq4rveEt69YgDuAb1tVDGV0lDepVaeAFraoySWqneJmOt4TngFFNhlw7GfA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3823,7 +3823,7 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.0.4
-      vite-node: 0.26.0
+      vite-node: 0.26.2
     transitivePeerDependencies:
       - less
       - sass
