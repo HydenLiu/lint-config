@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sunupdong",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "license": "MIT",
   "homepage": "https://github.com/sunupdong/eslint-config",
   "main": "./dist/index.cjs",
