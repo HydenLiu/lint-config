@@ -8,14 +8,14 @@ importers:
       bumpp: 8.2.1
       eslint: 8.31.0
       eslint-plugin-sunupdong: workspace:*
-      rimraf: ^3.0.2
+      rimraf: ^4.0.0
       typescript: 4.9.4
     devDependencies:
       '@sunupdong/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.31.0
       eslint-plugin-sunupdong: link:packages/eslint-plugin-sunupdong
-      rimraf: 3.0.2
+      rimraf: 4.0.4
       typescript: 4.9.4
 
   packages/all:
@@ -3302,6 +3302,12 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+
+  /rimraf/4.0.4:
+    resolution: {integrity: sha512-R0hoVr9xTwemarQjoWlNt/nb5dEGVTBhVdkRmEX2zEkT8T6onH0XKiGjuaC7rNNj/gYzY2p4NVRJ3sjO1ascHQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /rollup-plugin-dts/5.0.0_b62htvnbshcybhtkm3m3gan63e:
     resolution: {integrity: sha512-OO8ayCvuJCKaQSShyVTARxGurVVk4ulzbuvz+0zFd1f93vlnWFU5pBMT7HFeS6uj7MvvZLx4kUAarGATSU1+Ng==}
