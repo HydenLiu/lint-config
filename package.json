@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@sunupdong/eslint-config": "*",
-    "bumpp": "8.2.1",
+    "bumpp": "9.0.0",
     "eslint": "8.34.0",
     "eslint-plugin-sunupdong": "workspace:*",
     "rimraf": "^4.0.0",
