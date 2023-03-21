@@ -2,7 +2,7 @@
   "name": "@sunupdong/eslint-config-monorepo",
   "version": "1.1.0",
   "private": true,
-  "packageManager": "pnpm@7.29.3",
+  "packageManager": "pnpm@7.30.0",
   "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
   "license": "MIT",
   "scripts": {
