@@ -2,9 +2,9 @@
   "name": "@sunupdong/eslint-config-basic",
   "version": "1.1.0",
   "description": "",
-  "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
+  "author": "Hyden Liu <sunupdong@gmail.com> (https://github.com/HydenLiu/)",
   "license": "MIT",
-  "homepage": "https://github.com/sunupdong/eslint-config",
+  "homepage": "https://github.com/HydenLiu/eslint-config",
   "keywords": [
     "eslint-config"
   ],

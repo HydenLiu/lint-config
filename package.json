@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "private": true,
   "packageManager": "pnpm@8.1.1",
-  "author": "sunupdong <sunupdong@gmail.com> (https://github.com/sunupdong/)",
+  "author": "Hyden Liu <sunupdong@gmail.com> (https://github.com/HydenLiu/)",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
