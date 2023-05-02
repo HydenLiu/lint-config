@@ -13,13 +13,13 @@ export default createEslintRule<Options, MessageIds>({
     type: 'suggestion',
     docs: {
       description: 'Newline after if',
-      recommended: 'error',
+      recommended: 'error'
     },
     fixable: 'code',
     schema: [],
     messages: {
-      preferInlineTypeImport: 'Prefer inline type import',
-    },
+      preferInlineTypeImport: 'Prefer inline type import'
+    }
   },
   defaultOptions: [],
   create: (context) => {
@@ -39,12 +39,12 @@ export default createEslintRule<Options, MessageIds>({
             },
             loc: node.loc,
             messageId: 'preferInlineTypeImport',
-            node,
+            node
           })
         }
-      },
+      }
     }
-  },
+  }
 })
 
 function *removeTypeSpecifier(fixer, sourceCode, node) {
@@ -57,7 +57,7 @@ function *removeTypeSpecifier(fixer, sourceCode, node) {
   if (importKeyword.loc.end.column + 1 === typeIdentifier.loc.start.column) {
     yield fixer.removeRange([
       importKeyword.range[1],
-      importKeyword.range[1] + 1,
+      importKeyword.range[1] + 1
     ])
   }
 }

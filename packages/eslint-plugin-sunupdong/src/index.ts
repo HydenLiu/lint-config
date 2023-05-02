@@ -6,6 +6,6 @@ export default {
   rules: {
     'if-newline': ifNewline,
     'import-dedupe': importDedupe,
-    'prefer-inline-type-import': preferInlineTypeImport,
-  },
+    'prefer-inline-type-import': preferInlineTypeImport
+  }
 }

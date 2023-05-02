@@ -10,13 +10,13 @@ export default createEslintRule<Options, MessageIds>({
     type: 'problem',
     docs: {
       description: 'Fix duplication in imports',
-      recommended: 'error',
+      recommended: 'error'
     },
     fixable: 'code',
     schema: [],
     messages: {
-      importDedupe: 'Expect no duplication in imports',
-    },
+      importDedupe: 'Expect no duplication in imports'
+    }
   },
   defaultOptions: [],
   create: (context) => {
@@ -33,7 +33,7 @@ export default createEslintRule<Options, MessageIds>({
               node,
               loc: {
                 start: n.loc.end,
-                end: n.loc.start,
+                end: n.loc.start
               },
               messageId: 'importDedupe',
               fix(fixer) {
@@ -42,14 +42,14 @@ export default createEslintRule<Options, MessageIds>({
                 if (context.getSourceCode().text[e] === ',')
                   e += 1
                 return fixer.removeRange([s, e])
-              },
+              }
             })
           }
           names.add(id)
         })
 
         // console.log(node)
-      },
+      }
     }
-  },
+  }
 })

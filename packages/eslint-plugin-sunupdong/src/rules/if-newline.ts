@@ -10,13 +10,13 @@ export default createEslintRule<Options, MessageIds>({
     type: 'problem',
     docs: {
       description: 'Newline after if',
-      recommended: 'error',
+      recommended: 'error'
     },
     fixable: 'code',
     schema: [],
     messages: {
-      missingIfNewline: 'Expect newline after if',
-    },
+      missingIfNewline: 'Expect newline after if'
+    }
   },
   defaultOptions: [],
   create: (context) => {
@@ -31,15 +31,15 @@ export default createEslintRule<Options, MessageIds>({
             node,
             loc: {
               start: node.test.loc.end,
-              end: node.consequent.loc.start,
+              end: node.consequent.loc.start
             },
             messageId: 'missingIfNewline',
             fix(fixer) {
               return fixer.replaceTextRange([node.consequent.range[0], node.consequent.range[0]], '\n')
-            },
+            }
           })
         }
-      },
+      }
     }
-  },
+  }
 })
