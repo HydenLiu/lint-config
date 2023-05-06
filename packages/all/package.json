@@ -26,7 +26,7 @@
     "eslint-plugin-jsonc": "^2.5.0",
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-unicorn": "^46.0.0",
+    "eslint-plugin-unicorn": "^47.0.0",
     "eslint-plugin-vue": "^9.7.0",
     "eslint-plugin-yml": "^1.2.0",
     "jsonc-eslint-parser": "^2.1.0",
