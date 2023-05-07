@@ -56,8 +56,8 @@ importers:
         specifier: ^6.1.1
         version: 6.1.1(eslint@8.40.0)
       eslint-plugin-unicorn:
-        specifier: ^46.0.0
-        version: 46.0.0(eslint@8.40.0)
+        specifier: ^47.0.0
+        version: 47.0.0(eslint@8.40.0)
       eslint-plugin-vue:
         specifier: ^9.7.0
         version: 9.7.0(eslint@8.40.0)
@@ -102,8 +102,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-plugin-sunupdong
       eslint-plugin-unicorn:
-        specifier: ^46.0.0
-        version: 46.0.0(eslint@8.40.0)
+        specifier: ^47.0.0
+        version: 47.0.0(eslint@8.40.0)
       eslint-plugin-yml:
         specifier: ^1.2.0
         version: 1.2.0(eslint@8.40.0)
@@ -1895,11 +1895,11 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: false
 
-  /eslint-plugin-unicorn@46.0.0(eslint@8.40.0):
-    resolution: {integrity: sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==}
-    engines: {node: '>=14.18'}
+  /eslint-plugin-unicorn@47.0.0(eslint@8.40.0):
+    resolution: {integrity: sha512-ivB3bKk7fDIeWOUmmMm9o3Ax9zbMz1Bsza/R2qm46ufw4T6VBFBaJIR1uN3pCKSmSXm8/9Nri8V+iUut1NhQGA==}
+    engines: {node: '>=16'}
     peerDependencies:
-      eslint: '>=8.28.0'
+      eslint: '>=8.38.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.40.0)
@@ -1914,7 +1914,7 @@ packages:
       pluralize: 8.0.0
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.24
-      regjsparser: 0.9.1
+      regjsparser: 0.10.0
       safe-regex: 2.1.1
       semver: 7.3.8
       strip-indent: 3.0.0
@@ -2066,7 +2066,7 @@ packages:
     dependencies:
       acorn: 8.8.2
       acorn-jsx: 5.3.2(acorn@8.8.2)
-      eslint-visitor-keys: 3.4.0
+      eslint-visitor-keys: 3.4.1
     dev: false
 
   /espree@9.5.2:
@@ -3305,8 +3305,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /regjsparser@0.9.1:
-    resolution: {integrity: sha512-dQUtn90WanSNl+7mQKcXAgZxvUe7Z0SqXlgzv0za4LwiUhyzBC58yQO3liFoUgu8GiJVInAhJjkj1N0EtQ5nkQ==}
+  /regjsparser@0.10.0:
+    resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
     hasBin: true
     dependencies:
       jsesc: 0.5.0
