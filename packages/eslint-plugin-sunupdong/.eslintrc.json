@@ -1,6 +1,6 @@
 {
-  "extends": "@sunupdong",
+  "extends": "@hydenliu",
   "plugins": [
-    "sunupdong"
+    "hydenliu"
   ]
 }

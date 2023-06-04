@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'sunupdong'
+    'hydenliu'
   ],
   settings: {
     'import/resolver': {

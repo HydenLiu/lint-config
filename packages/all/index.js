@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@sunupdong/eslint-config-react',
-    '@sunupdong/eslint-config-vue'
+    '@hydenliu/eslint-config-react',
+    '@hydenliu/eslint-config-vue'
   ]
 }

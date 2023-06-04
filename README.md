@@ -1,5 +1,5 @@
-# @sunupdong/eslint-config
-[![npm version](https://badge.fury.io/js/%40sunupdong%2Feslint-config.svg)](https://badge.fury.io/js/%40sunupdong%2Feslint-config)
+# @hydenliu/eslint-config
+[![npm version](https://badge.fury.io/js/%hydenliu%2Feslint-config.svg)](https://badge.fury.io/js/%hydenliu%2Feslint-config)
 
 Forked from antfu/eslint-config
 
@@ -15,14 +15,14 @@ Forked from antfu/eslint-config
 ### Install
 
 ```bash
-pnpm add -D eslint @sunupdong/eslint-config
+pnpm add -D eslint @hydenliu/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@sunupdong"
+  "extends": "@hydenliu"
 }
 ```
 

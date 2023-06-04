@@ -1,8 +1,8 @@
 {
-  "name": "@sunupdong/eslint-config-react",
-  "version": "1.1.2",
+  "name": "@hydenliu/eslint-config-react",
+  "version": "0.0.0",
   "description": "",
-  "author": "Hyden Liu <sunupdong@gmail.com> (https://github.com/HydenLiu/)",
+  "author": "Hyden Liu <hydenliu@gmail.com> (https://github.com/HydenLiu/)",
   "license": "MIT",
   "homepage": "https://github.com/HydenLiu/eslint-config",
   "keywords": [
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@sunupdong/eslint-config-ts": "workspace:*",
+    "@hydenliu/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0"
   },

@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-sunupdong",
-  "version": "1.1.2",
+  "name": "eslint-plugin-hydenliu",
+  "version": "0.0.0",
   "license": "MIT",
   "homepage": "https://github.com/HydenLiu/eslint-config",
   "main": "./dist/index.cjs",
