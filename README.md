@@ -1,5 +1,5 @@
 # @hydenliu/eslint-config
-[![npm version](https://badge.fury.io/js/%hydenliu%2Feslint-config.svg)](https://badge.fury.io/js/%hydenliu%2Feslint-config)
+[![npm](https://img.shields.io/npm/v/@hydenliu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@hydenliu/eslint-config)
 
 Forked from antfu/eslint-config
 
@@ -9,6 +9,10 @@ Forked from antfu/eslint-config
 - Lint also for json, yaml, markdown
 - Sorted imports, dangling commas for cleaner commit diff
 - Reasonable defaults, best practices, only one-line of config
+
+## WIP
+
+- add stylelint
 
 ## Usage
 

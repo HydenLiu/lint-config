@@ -329,6 +329,11 @@ module.exports = {
 
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
-    'yml/no-empty-document': 'off'
+    'yml/no-empty-document': 'off',
+
+    // Hyden Liu
+    'hydenliu/if-newline': 'error',
+    'hydenliu/import-dedupe': 'error',
+    'hydenliu/top-level-function': 'error'
   }
 }
