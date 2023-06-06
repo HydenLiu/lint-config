@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@hydenliu/eslint-config": "*",
-    "bumpp": "9.1.0",
+    "bumpp": "9.1.1",
     "eslint": "8.41.0",
     "eslint-plugin-hydenliu": "workspace:*",
     "rimraf": "^5.0.0",
