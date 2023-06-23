@@ -2,7 +2,7 @@
   "name": "@hydenliu/eslint-config-monorepo",
   "version": "0.0.3",
   "private": true,
-  "packageManager": "pnpm@8.6.2",
+  "packageManager": "pnpm@8.6.3",
   "author": "Hyden Liu <hydenliu518@gmail.com> (https://github.com/HydenLiu/)",
   "license": "MIT",
   "scripts": {
