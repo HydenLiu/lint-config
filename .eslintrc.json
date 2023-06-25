@@ -1,3 +1,6 @@
 {
-  "extends": "@hydenliu"
+  "extends": [
+    "@hydenliu/eslint-config-vue"
+    // "@hydenliu/eslint-config-react"
+  ]
 }

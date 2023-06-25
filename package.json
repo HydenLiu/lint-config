@@ -14,9 +14,9 @@
     "clean": "rm -rf node_modules packages/**/node_modules"
   },
   "devDependencies": {
-    "@hydenliu/eslint-config-vue": "link:./packages/eslint-config-vue",
     "@hydenliu/eslint-config-react": "link:./packages/eslint-config-react",
     "@hydenliu/eslint-config-ts": "link:./packages/eslint-config-ts",
+    "@hydenliu/eslint-config-vue": "link:./packages/eslint-config-vue",
     "bumpp": "9.1.1",
     "eslint": "8.43.0",
     "eslint-plugin-hydenliu": "workspace:*",
