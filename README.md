@@ -1,8 +1,6 @@
 # @hydenliu/eslint-config
 [![npm](https://img.shields.io/npm/v/@hydenliu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@hydenliu/eslint-config)
 
-Forked from antfu/eslint-config
-
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
 - TypeScript, Vue, React out-of-box
@@ -19,15 +17,20 @@ Forked from antfu/eslint-config
 ### Install
 
 ```bash
-pnpm add -D eslint @hydenliu/eslint-config
+# vue
+pnpm add -D eslint @hydenliu/eslint-config-vue
+
+# react
+pnpm add -D eslint @hydenliu/eslint-config-react
+
+# typescript
+pnpm add -D eslint @hydenliu/eslint-config-ts
 ```
 
 ### Config `.eslintrc`
 
-```json
-{
-  "extends": "@hydenliu"
-}
+```bash
+echo '{"extends": "@chansee97/eslint-config-xxx"}' > .eslintrc
 ```
 
 > You don't need `.eslintignore` normally as it has been provided by the preset.
@@ -57,6 +60,10 @@ Create `.vscode/settings.json`
   }
 }
 ```
+
+## Reference
+- [antfu/eslint-config](https://github.com/antfu/eslint-config)
+- [chansee97/lint-config](https://github.com/chansee97/lint-config)
 
 ## License
 
