@@ -62,7 +62,17 @@ Create `.vscode/settings.json`
 }
 ```
 
-### Lint CSS, SCSS
+``` json
+// if use Vue
+{
+  "stylelint.validate": [
+    // ↓ Add "vue" language.
+    "vue"
+  ]
+}
+```
+
+### Lint CSS
 
 ```bash
 echo '{"extends": "@hydenliu/stylelint-config"}' > .stylelintrc
