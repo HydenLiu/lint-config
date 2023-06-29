@@ -1,6 +1,6 @@
 # @hydenliu/lint-config
 
-[![npm](https://img.shields.io/npm/v/@hydenliu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@hydenliu/eslint-config)
+[![npm](https://img.shields.io/npm/v/@hydenliu/eslint-config-vue?color=a1b858&label=)](https://npmjs.com/package/@hydenliu/eslint-config-vue)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
