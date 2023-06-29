@@ -157,7 +157,7 @@ module.exports = {
       files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: {
         'no-unused-expressions': 'off',
-        'no-only-tests/no-only-tests': 'error',
+        'no-only-tests/no-only-tests': 'error'
       }
     },
     {
@@ -198,7 +198,7 @@ module.exports = {
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
-      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
+      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' }
     ],
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],

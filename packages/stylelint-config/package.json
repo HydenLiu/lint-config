@@ -1,0 +1,32 @@
+{
+  "name": "@hydenliu/stylelint-config",
+  "version": "0.0.5-beta.0",
+  "description": "",
+  "author": "Hyden Liu <hydenliu518@gmail.com> (https://github.com/HydenLiu/)",
+  "license": "MIT",
+  "homepage": "https://github.com/HydenLiu/stylelint-config",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "stylelint": "npx stylelint **/*.{css,scss,vue,less,html} --fix"
+  },
+  "peerDependencies": {
+    "stylelint": "*"
+  },
+  "dependencies": {
+    "postcss-html": "^1.5.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended": "^12.0.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3"
+  },
+  "devDependencies": {
+    "stylelint": "^15.8.0"
+  }
+}
