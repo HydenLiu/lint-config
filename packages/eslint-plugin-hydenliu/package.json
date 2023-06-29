@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-hydenliu",
-  "version": "0.0.5-beta.0",
+  "version": "0.0.5",
   "license": "MIT",
   "homepage": "https://github.com/HydenLiu/eslint-config",
   "main": "./dist/index.cjs",
