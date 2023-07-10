@@ -16,7 +16,7 @@
     "prepublishOnly": "nr build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.59.8"
+    "@typescript-eslint/utils": "^6.0.0"
   },
   "devDependencies": {
     "unbuild": "1.2.1",
