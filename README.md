@@ -31,7 +31,7 @@ pnpm add -D stylelint @hydenliu/stylelint-config
 ### Config `.eslintrc`
 
 ```bash
-echo '{"extends": "@chansee97/eslint-config-xxx"}' > .eslintrc
+echo '{"extends": "@hydenliu/eslint-config-xxx"}' > .eslintrc
 ```
 
 > You don't need `.eslintignore` normally as it has been provided by the preset.
