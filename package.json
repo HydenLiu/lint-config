@@ -19,7 +19,7 @@
     "@hydenliu/eslint-config-vue": "link:./packages/eslint-config-vue",
     "@hydenliu/stylelint-config": "link:./packages/stylelint-config",
     "bumpp": "9.2.0",
-    "eslint": "8.50.0",
+    "eslint": "8.51.0",
     "eslint-plugin-hydenliu": "workspace:*",
     "rimraf": "^5.0.1",
     "stylelint": "^15.9.0",
