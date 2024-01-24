@@ -22,7 +22,7 @@
     "eslint": "8.52.0",
     "eslint-plugin-hydenliu": "workspace:*",
     "rimraf": "^5.0.1",
-    "stylelint": "^15.9.0",
+    "stylelint": "^16.0.0",
     "typescript": "5.3.3"
   }
 }
