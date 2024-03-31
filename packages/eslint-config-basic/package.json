@@ -23,7 +23,7 @@
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsonc": "^2.5.0",
-    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-markdown": "^4.0.0",
     "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-promise": "^6.1.1",
